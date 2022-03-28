@@ -21,9 +21,9 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly DemoService _demoService;
+        private readonly JunkService _demoService;
 
-        public MainWindow(DemoService demoService)
+        public MainWindow(JunkService demoService)
         {
             InitializeComponent();
             _demoService = demoService;

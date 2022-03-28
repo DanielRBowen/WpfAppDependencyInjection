@@ -28,7 +28,7 @@ namespace WpfApp1
 
         private void ConfigureServices(ServiceCollection services)
         {
-            services.AddTransient<DemoService>();
+            services.AddTransient<JunkService>();
             services.AddSingleton<MainWindow>();
         }
 

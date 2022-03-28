@@ -1,6 +1,6 @@
 ﻿namespace WpfApp1
 {
-    public class DemoService
+    public class JunkService
     {
         public string GetJunk()
         {
